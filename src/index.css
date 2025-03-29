@@ -202,18 +202,14 @@ form button[type='button'] {
 }
 
 button[type="submit"] {
-  all: unset; /* Resets all inherited styles */
-  display: inline-block;
   width: 100%;
-  padding: 12px 20px;
-  font-size: 16px;
-  text-align: center;
+  padding: 16px;
   border: none;
-  border-radius: 25px; /* Rounded button */
-  background-color: black;
-  color: white;
+  border-radius: 4px;
+  font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  border-radius: 30px;
+  font-weight: 600;
 }
 
 button[type="submit"]:hover {

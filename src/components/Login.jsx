@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "../assets/image.png";
-import Logo from "../assets/logo.png";
+// import Logo from "../assets/logo.png";
 import GoogleSvg from "../assets/icons8-google.svg";
 import { FaEye, FaEyeSlash } from "react-icons/fa6";
 
@@ -51,7 +51,7 @@ const Login = () => {
       <div className="login-right">
         <div className="login-right-container">
           <div className="login-logo">
-            <img src={Logo} alt="Logo" />
+            {/* <img src={Logo} alt="Logo" /> */}
           </div>
           <div className="login-center">
             <h2>Welcome back!</h2>
