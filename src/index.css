@@ -201,3 +201,23 @@ form button[type='button'] {
   text-decoration: underline;
 }
 
+button[type="submit"] {
+  all: unset; /* Resets all inherited styles */
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 25px; /* Rounded button */
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #333;
+}
+
+
